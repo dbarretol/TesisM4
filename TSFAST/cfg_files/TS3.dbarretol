@@ -1,0 +1,34 @@
+default        ZJetMax         - Jet height [m] (used only for JET wind profile, valid 70-490 m)
+0.1            PLExp           - Power law exponent [-] (or "default")
+default        Z0              - Surface roughness length [m] (or "default")
+
+--------Non-IEC Meteorological Boundary Conditions------------
+default        Latitude        - Site latitude [degrees] (or "default")
+0.05           RICH_NO         - Gradient Richardson number
+default        UStar           - Friction or shear velocity [m/s] (or "default")
+default        ZI              - Mixing layer depth [m] (or "default")
+default        PC_UW           - Hub mean u'w' Reynolds stress [(m/s)^2] (or "default")
+default        PC_UV           - Hub mean u'v' Reynolds stress [(m/s)^2] (or "default")
+default        PC_VW           - Hub mean v'w' Reynolds stress [(m/s)^2] (or "default")
+
+--------Spatial Coherence Parameters----------------------------
+default        SCMod1          - u-component coherence model ("GENERAL","IEC","API","NONE", or "default")
+default        SCMod2          - v-component coherence model ("GENERAL","IEC","NONE", or "default")
+default        SCMod3          - w-component coherence model ("GENERAL","IEC","NONE", or "default")
+default        InCDec1         - u-component coherence parameters [-, m^-1] ("a b" in quotes or "default")
+default        InCDec2         - v-component coherence parameters [-, m^-1] ("a b" in quotes or "default")
+default        InCDec3         - w-component coherence parameters [-, m^-1] ("a b" in quotes or "default")
+default        CohExp          - Coherence exponent for general model [-] (or "default")
+
+--------Coherent Turbulence Scaling Parameters-------------------
+"M:\coh_events\eventdata"  CTEventPath     -   Name of the path where event data files are located
+"Random"       CTEventFile     - Type of event files ("random", "les" or "dns")
+true           Randomize       - Randomize disturbance scale and location? (true/false)
+ 1.0           DistScl         - Disturbance scale (ratio of dataset height to rotor disk).
+ 0.5           CTLy            - Fractional location of tower centerline from right (looking downwind) to left side of the dataset.
+ 0.5           CTLz            - Fractional location of hub height from the bottom of the dataset.
+10.0           CTStartTime     - Minimum start time for coherent structures in RootName.cts [seconds]
+
+==================================================
+NOTE: Do not add or remove any lines in this file!
+==================================================

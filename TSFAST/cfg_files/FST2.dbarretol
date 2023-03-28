@@ -1,0 +1,5 @@
+"    EDFile          - Name of file containing ElastoDyn input parameters (quoted string)
+"NREL_5MW/BeamDyn.dat"    BDBldFile(1)    - Name of file containing BeamDyn input parameters for blade 1 (quoted string)
+"NREL_5MW/BeamDyn.dat"    BDBldFile(2)    - Name of file containing BeamDyn input parameters for blade 2 (quoted string)
+"NREL_5MW/BeamDyn.dat"    BDBldFile(3)    - Name of file containing BeamDyn input parameters for blade 3 (quoted string)
+"NREL_5MW/

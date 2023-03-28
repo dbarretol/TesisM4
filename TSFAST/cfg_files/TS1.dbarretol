@@ -1,0 +1,4 @@
+---------TurbSim v2.00.* Input File------------------------
+Example input file for TurbSim.
+---------Runtime Options-----------------------------------
+False          Echo            - Echo input data to <RootName>.ech (flag)
