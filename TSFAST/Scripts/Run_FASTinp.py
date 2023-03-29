@@ -9,6 +9,7 @@ import subprocess as sp
 import multiprocessing as mp
 from multiprocessing import Pool
 
+#Esta línea debe actualizarse se acuerdo a en donde se ubique el ejecutable de TURBSIM
 app_fst="C:/FAST/Fast V8/bin/FAST_Win32.exe"
 n_cpus = mp.cpu_count()-1
 
